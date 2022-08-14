@@ -5,4 +5,4 @@
 4. After selecting the best variable and training the model using the data, we could then apply the model to other countries, beyond of US. This allows us to see if the model actually worked for countries that had more similar demograhics to the US.
 
 
-## Do note that most of the detailed description of our analysis and prediction models are written in the cz1115_project ipynb file. The source code is also in that file.
+### Do note that most of the detailed description of our analysis and prediction models are written in the cz1115_project ipynb file. The source code is also in that file.
