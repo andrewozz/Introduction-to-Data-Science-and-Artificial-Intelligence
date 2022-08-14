@@ -1,1 +1,8 @@
 ## Introduction-to-Data-Science-and-Artificial-Intelligence
+1. Data cleaning and processing - Upon receiving the raw data of covid statistics from 2019-2021, we had to filter, clean and process the data. This also involved cleaning up some null values and restructuring our data for easier extraction.
+2. In this project, we were tasked to choose the more important variables that were great for a multivariable linear regression model to predict the daily positive covid cases. Since there were alot of variables provided in the data, we used a heatmap to visualise the correlation values of the variables with respect to the number of daily positive covid cases respectively. Then, we ranked the corr values to see which variables are the most correlated.
+3. We then performed linear regression analysis on the 5 variables that we have chosen. The 5 variables used to predict positive cases are "positiveIncrease","hospitalizedCurrently","positiveCasesViral","totalTestsViral","recovered", "totalTestResultsIncrease". We will do the regression model on each variable to predict positiveIncrease. Then, we choose the best model based on the explained variance values. The higher the explained variance value, the better the model is for predicting the number of daily positive covid cases.
+4. After selecting the best variable and training the model using the data, we could then apply the model to other countries, beyond of US. This allows us to see if the model actually worked for countries that had more similar demograhics to the US.
+
+
+## Do note that most of the detailed description of our analysis and prediction models are written in the cz1115_project ipynb file. The source code is also in that file.
